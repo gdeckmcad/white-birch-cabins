@@ -11,6 +11,7 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.4;
+  color: #3d3d3d;
 }
 
 img {
@@ -50,9 +51,17 @@ img {
 /* main-content */
 
 .main-content {
-  margin:1em auto;
+  margin:0.5em auto;
   max-width: 960px;
   padding: 1em;
+}
+
+blockquote {
+  border-left: 10px solid #273848;
+  margin:20px;
+  padding-left:15px;
+  padding:20px;
+  background-color: #f0f0f0;
 }
 
 /* main-nav */
@@ -139,4 +148,36 @@ When the navigation sidebar is open*/
     top: 0;
     left: 0;
     z-index: 150;
+}
+
+/* featured cabins */
+
+.project-thumb {
+  position: relative;
+  width: 50%;
+  float: left;
+  background-color: hsla(0, 100%, 100%, 0.75);
+  border: 1px solid white;
+}
+
+.project-thumb:hover {
+  background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+.project-thumb img {
+  position: relative;
+  z-index: -10;
+}
+
+.project-thumb h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  text-align: center;
+  color: #000000;
+}
+.project-thumb:hover h3 {
+  color: #ffffff;
 }
