@@ -19,6 +19,30 @@ img {
   display: block;
 }
 
+h3 {
+  margin: 0;
+  margin-top:10px;
+}
+
+blockquote {
+  border-left: 10px solid #273848;
+  margin:20px;
+  padding-left:15px;
+  padding:20px;
+  background-color: #f0f0f0;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  color: #8b0000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
 /* page header */
 .page-header {
   background-color: white;
@@ -54,15 +78,6 @@ img {
   margin:0.5em auto;
   max-width: 960px;
   padding: 1em;
-}
-
-blockquote {
-  border-left: 10px solid #273848;
-  margin:20px;
-  padding-left:15px;
-  padding:20px;
-  background-color: #f0f0f0;
-  clear: both;
 }
 
 /* main-nav */
@@ -119,10 +134,6 @@ blockquote {
 
 /* nav open
 When the navigation sidebar is open*/
-
-.nav-open {
-  overflow: hidden;
-}
 
 .nav-open .main-nav {
   border: 1px solid purple;
@@ -191,6 +202,12 @@ When the navigation sidebar is open*/
   margin-right:40px;
 }
 
+.left-3 {
+  float: left;
+  width: 33%;
+  padding-right:20px;
+}
+
 .newsletter{
   background-color: #f0f0f0;
   border-radius: 10px;
@@ -203,16 +220,13 @@ When the navigation sidebar is open*/
   padding:10px;
 }
 
-h3 {
-  margin: 0;
-  margin-top:10px;
-}
-
 .contact {
   clear: both;
   border-top: 1px solid #dadada;
   padding: 20px 0;
+  margin-top:30px;
 }
+
 
 /* footer */
 
