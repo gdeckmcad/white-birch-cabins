@@ -156,12 +156,12 @@ When the navigation sidebar is open*/
   position: relative;
   width: 50%;
   float: left;
-  background-color: hsla(0, 100%, 100%, 0.75);
+  background-color: hsla(0, 0%, 0%, 0.5);
   border: 1px solid white;
 }
 
 .project-thumb:hover {
-  background-color: hsla(0, 0%, 0%, 0.5);
+  background-color: hsla(0, 100%, 100%, 0.75);
 }
 
 .project-thumb img {
@@ -176,8 +176,25 @@ When the navigation sidebar is open*/
   transform: translate(-50%, -50%);
   margin: 0;
   text-align: center;
-  color: #000000;
+  color: #ffffff;
 }
 .project-thumb:hover h3 {
+  color: #000000;
+}
+
+.left {
+  float: left;
+  margin-right:50px;
+}
+
+.newsletter{
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding:20px;
+}
+
+.submit {
+  background-color: #273848;
   color: #ffffff;
+  padding:10px;
 }
